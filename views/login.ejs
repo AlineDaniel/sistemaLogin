@@ -1,0 +1,10 @@
+<form action="/admin/login" method="POST">
+    <p><%= (typeof(error) != "undefined")?error:"" %></p>
+    <label>E-mail</label>
+    <input type="text" name="email">
+
+    <label>Senha</label>
+    <input type="password" name="senha">
+
+    <button>Entrar</button>
+</form>
